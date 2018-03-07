@@ -1,0 +1,9 @@
+.section {
+  padding: 200px;
+  text-align: center;
+  user-select: none;
+}
+
+.section:nth-child(even) {
+  background-color: #cccccc;
+}

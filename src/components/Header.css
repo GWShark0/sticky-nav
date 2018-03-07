@@ -1,0 +1,24 @@
+.header {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.header::before,
+.header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.header::before {
+  background: linear-gradient(0deg, #6ecff5 0%, #008bc6 100%);
+}
+
+.header::after {
+  transform: skew(-33deg) translatex(56%);
+  background: linear-gradient(0deg, #5adef7 0%, #0090d6 100%);
+}

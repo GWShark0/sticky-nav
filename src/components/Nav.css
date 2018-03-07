@@ -1,0 +1,25 @@
+.nav {
+  color: #ffffff;
+  background-color: #000000;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  height: 70px;
+  user-select: none;
+}
+
+.nav__content {
+  padding: 20px;
+  height: inherit;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav--stuck .nav__content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
